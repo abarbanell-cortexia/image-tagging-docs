@@ -14,15 +14,28 @@ Here we have some information for our taggers.
 
 ## Intro
 
-TODO
+Cortexia has a tagging application set up where you can find the qork queue of images to tag, and save your data right away. No hassle, you just need a browser and internet.
 
 ## Registration
 
-TODO
+Cortexia will provide you with the credentials to get into the tagging application: 
+
+- url
+- login
+- initial password (you need to change this on first connection)
 
 ## Your Work Queue
 
-TODO
+In the application you will first find a list of images. Please pick one and try to identify waste (or litter) on the images. Typical cases would be 
+
+- cigarettes 
+- glass bottles 
+- plastic bottles
+- newspapers
+- dog fouling
+- leaves
+
+The complete list of litter may change and is available in the application.
 
 ## Tagging an image
 
