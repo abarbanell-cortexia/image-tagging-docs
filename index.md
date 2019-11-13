@@ -57,7 +57,7 @@ However, once you close your session, all saved images are removed from your wor
 The Zoom function for the images is provided by your operation system. We have quick tips for this on YouTube: 
 
 - windows: https://www.youtube.com/watch?v=xNhF1NJ78NE&list=UUxajCPEOVkwc5PaGCBaftBA&index=1
-- mac: coming soon
+- mac: https://www.youtube.com/watch?v=bz2JrEwvFWs&list=UUxajCPEOVkwc5PaGCBaftBA&index=3
 - linux: Pull request welcome :) 
 
 ## References
