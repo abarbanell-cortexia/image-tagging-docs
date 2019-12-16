@@ -27,7 +27,7 @@ ID | name | description | colour
 18 |   'Organic food littering' |   'Organic food littering' 
 19 |   'Dog fouling' |   'Dog fouling' |   '#d32f2f' 
 21 |   'Garbage bags' |   'Garbage bags' |   '#263238' 
-22 |   'Sand/Grit/Granulate' |   'Grit |    granulate |    sand' |   '#616161' 
+22 |   'Sand/Grit/Granulate' |   'Grit, granulate, sand' |   '#616161' 
 23 |   'Chewing- gum' |   'Chewing-gum' |   '#607d8b' 
 24 |   'Vomit' |   'Vomit' |   '#e53935' 
 
@@ -56,7 +56,7 @@ ID | name | description | colour
 18 |   'Organic food littering' |   'Organic food littering' 
 19 |   'Dog fouling' |   'Dog fouling' |   '#d32f2f' 
 21 |   'Garbage bags' |   'Garbage bags' |   '#263238' 
-22 |   'Sand/Grit/Granulate' |   'Grit |    granulate |    sand' |   '#616161' 
+22 |   'Sand/Grit/Granulate' |   'Grit, granulate, sand' |   '#616161' 
 23 |   'Chewing- gum' |   'Chewing-gum' |   '#607d8b' 
 24 |   'Vomit' |   'Vomit' |   '#e53935' 
 25 |   'FF Cup' |   'Fast Food: only cup' |   '#7b1fa2' 
