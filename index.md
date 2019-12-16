@@ -2,6 +2,8 @@
 
 Here we have some information for our taggers.
 
+*Last updated: 16-Dec-2019*
+
 ## Table of Contents
 
 - Intro
