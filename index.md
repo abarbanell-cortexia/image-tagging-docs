@@ -2,7 +2,7 @@
 
 Here we have some information for our taggers.
 
-*Last updated: 16-Dec-2019 by Tobias*
+*Last updated: 16-Dec-2019 by Tobias Abarbanell*
 
 ## Table of Contents
 
