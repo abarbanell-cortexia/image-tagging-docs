@@ -23,7 +23,9 @@ Cortexia will provide you with the credentials to get into the tagging applicati
 
 - url
 - login
-- initial password (you need to change this on first connection)
+- password
+
+To log in visit https://vott.cortexia.io/ and enter your email and password. Then wait till the images appears. It could take some time depending on your connection.
 
 ## Your Work Queue
 
@@ -41,9 +43,56 @@ Typical cases would be
 
 The complete list of litter is available in the application or [here](categories.md)
 
+## Interface
+
+The main interface looks like the image below. You'll find:
+- on the top the tools bar
+- on the left you have menus (no need to modify something there project is already set up) and the preview of the images with their stats (explanation below).
+- on the right you find the different tag (litters types).
+- In the center you have the image to tag.
+
+![interface of VoTT app](images/vott-interface.png)
+
+## Toolbar
+
+![icon regions creation tool](images/tool-regions-creation.png) To create regions around litters (after creating the region choose a tag from the right by clicking on it or by using the shortcut from 0 to 9).
+
+![icon regions selection tool](images/tool-regions-selection.png) To select regions and move and resize them (also possible with the upper tool).
+
+![icon regions copy tool](images/tool-regions-copy.png) To copy the region also possible with the normal keyboard short cut.
+
+![icon regions cut tool](images/tool-regions-cut.png)To cut the region also possible with the normal keyboard short cut.
+
+![icon regions paste tool](images/tool-regions-paste.png) To past the region also possible with the normal keyboard short cut.
+
+![icon remove all regions tool](images/tool-regions-remove-all.png) To remove all regions (confirmation is required).
+
+![icon zoom info](images/tool-zoom-info.png) To have information about how to zoom available here are the links:
+
+•	Mac os: https://www.youtube.com/watch?v=bz2JrEwvFWs&feature=youtu.be
+
+•	Windows: https://www.youtube.com/watch?v=xNhF1NJ78NE&feature=youtu.be
+
+•	Ubuntu: https://www.youtube.com/watch?v=pFwblGYjzSs&feature=youtu.be
+
+![icon delete image tool](images/tool-delete-image.png) To delete an image
+
+![icon renew images tool](images/tool-renew-images.png) To load new images. Should be used when you tagged all images. Your current tagged image is sent to the server and saved.
+
+![icon image navigation tool](images/tool-image-navigation.png) To navigate through the images. You can also use the keyboard arrows or click on the preview of the desired image.
+
+
 ## Tagging an image
 
-TODO
+Once connected and the images loaded use the regions creation tool and draw for each identified object a bounding box and the class. To add the class refer to the above regions creation tool.
+
+- boxes can overlap. As long as an object can be identified it should be tagged.
+- objects can be cut off or partially hidden. E.g. hidden by image boundary, other objects, or poor lighting. As long as the visible part of the object allows to identify its classification, it should be tagged.
+- The same applies to blurry parts of the image, or parts with poor lighting. 
+- what is the minimum size of an object in pixel? - no fixed boundary, but many objects are small. We probably need a size of 5x5 pixel to identify the classification
+- special cases: leaves are only litter on fixed ground. on green areas they are not considered as litter: 
+  - to be tagged: ![leaves considered as litter](check-leaves-litter.png)
+  - not to be tagged: ![leaves NOT considered as litter](leaves-not-considered-as-litter.png)
 
 ## Saving your work
 
