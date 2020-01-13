@@ -21,9 +21,7 @@ For each identified object we need the bounding box and the class. See next sect
 - objects can be cut off or partially hidden. E.g. hidden by image boundary, other objects, or poor lighting. As long as the visible part of the object allows to identify its classification, it should be tagged.
 - The same applies to blurry parts of the image, or parts with poor lighting. 
 - what is the minimum size of an object in pixel? - no fixed boundary, but many objects are small. We probably need a size of 5x5 pixel to identify the classification
-- special cases: leaves are only litter on fixed ground. on green areas they are not considered as litter: 
-  - to be tagged: ![leaves considered as litter](images/leaves-litter.png)
-  - not to be tagged: ![leaves NOT considered as litter](images/leaves-not-considered-as-litter.png)
+- special cases: leaves are only litter on fixed ground. on green areas they are not considered as litter:  ![leaves considered as litter](images/leaves-litter.png)
 
 ### categories
 
