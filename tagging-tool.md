@@ -15,22 +15,23 @@ This page describes the use of the Cortexia tagging tool. The general informatio
 
 Cortexia has a tagging application set up where you can find 
 the work queue of images to tag, and save your data right away. 
+
 No hassle, you just need a browser and internet.
 
 ## Registration
 
 Cortexia will provide you with the credentials to get into the tagging application: 
 
-- url
-- login
+- login (your email)
 - password
 
-To log in visit https://vott.cortexia.io/ and enter your email and password. Then wait till the images appears. It could take some time depending on your connection.
+To log in visit https://vott.cortexia.io/ and enter your email and password. Then wait till the images appears. It could take some time depending on your connection for the first time.
 
 ## Your Work Queue
 
 In the application you will first find a list of images. 
 Please pick one and try to identify waste (or litter) on the images. 
+
 Typical cases would be 
 
 - cigarettes 
@@ -41,14 +42,15 @@ Typical cases would be
 - dog fouling
 - leaves
 
-The complete list of litter is available in the application or [here](categories.md)
+The complete list of litter categories is available in the application or [here](categories.md)
 
 ## Interface
 
 The main interface looks like the image below. You'll find:
+
 - on the top the tools bar
-- on the left you have menus (no need to modify something there project is already set up) and the preview of the images with their stats (explanation below).
-- on the right you find the different tag (litters types).
+- on the left you have menus (no need to modify something there, the project is already set up) and the preview of the images with their stats (explanation below).
+- on the right you find the different tags (litter categories).
 - In the center you have the image to tag.
 
 ![interface of VoTT app](images/vott-interface.png)
@@ -69,11 +71,9 @@ The main interface looks like the image below. You'll find:
 
 ![icon zoom info](images/tool-zoom-info.png) To have information about how to zoom available here are the links:
 
-•	Mac os: https://www.youtube.com/watch?v=bz2JrEwvFWs&feature=youtu.be
-
-•	Windows: https://www.youtube.com/watch?v=xNhF1NJ78NE&feature=youtu.be
-
-•	Ubuntu: https://www.youtube.com/watch?v=pFwblGYjzSs&feature=youtu.be
+- Mac OS: https://www.youtube.com/watch?v=bz2JrEwvFWs&feature=youtu.be
+- Windows: https://www.youtube.com/watch?v=xNhF1NJ78NE&feature=youtu.be
+- Ubuntu: https://www.youtube.com/watch?v=pFwblGYjzSs&feature=youtu.be
 
 ![icon delete image tool](images/tool-delete-image.png) To delete an image
 
@@ -91,22 +91,14 @@ Once connected and the images loaded use the regions creation tool and draw for 
 - The same applies to blurry parts of the image, or parts with poor lighting. 
 - what is the minimum size of an object in pixel? - no fixed boundary, but many objects are small. We probably need a size of 5x5 pixel to identify the classification
 - special cases: leaves are only litter on fixed ground. on green areas they are not considered as litter: 
-  - to be tagged: ![leaves considered as litter](check-leaves-litter.png)
-  - not to be tagged: ![leaves NOT considered as litter](leaves-not-considered-as-litter.png)
+  - to be tagged: ![leaves considered as litter](images/leaves-litter.png)
+  - not to be tagged: ![leaves NOT considered as litter](images/leaves-not-considered-as-litter.png)
 
 ## Saving your work
 
 When you move from one image to the next, the work is saved automatically, but you can still go back to that image to make more changes. 
 
-However, once you close your session, all saved images are removed from your work queue and you cannot make any more changes in another session.
-
-## Useful tips
-
-The Zoom function for the images is provided by your operation system. We have quick tips for this on YouTube: 
-
-- windows: https://www.youtube.com/watch?v=xNhF1NJ78NE&list=UUxajCPEOVkwc5PaGCBaftBA&index=1
-- mac: https://www.youtube.com/watch?v=bz2JrEwvFWs&list=UUxajCPEOVkwc5PaGCBaftBA&index=3
-- linux: Pull request welcome :) 
+However, once you close your session or click on "renew images" (see above), all saved images are removed from your work queue and you cannot make any more changes in another session.
 
 ## References
 

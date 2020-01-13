@@ -2,8 +2,6 @@
 
 Here we have some information for our taggers.
 
-*Last updated: 16-Dec-2019 by Tobias Abarbanell*
-
 ## Table of Contents
 
 - Intro
@@ -24,7 +22,7 @@ For each identified object we need the bounding box and the class. See next sect
 - The same applies to blurry parts of the image, or parts with poor lighting. 
 - what is the minimum size of an object in pixel? - no fixed boundary, but many objects are small. We probably need a size of 5x5 pixel to identify the classification
 - special cases: leaves are only litter on fixed ground. on green areas they are not considered as litter: 
-  - to be tagged: ![leaves considered as litter](images/check-leaves-litter.png)
+  - to be tagged: ![leaves considered as litter](images/leaves-litter.png)
   - not to be tagged: ![leaves NOT considered as litter](images/leaves-not-considered-as-litter.png)
 
 ### categories
@@ -35,7 +33,7 @@ Please see the list of categories [here](./categories.md)
 
 ## output format
 
-We will need the output as JSON file if possible (unless you are using our tagging toold which will take care of this automatically). Our sample JSON format is [here](./cortexia-sample.json).
+We will need the output as JSON file if possible (unless you are using our tagging tool which will take care of this automatically). Our sample JSON format is [here](./cortexia-sample.json).
 
 ## Using the Cortexia tagging tool
 
