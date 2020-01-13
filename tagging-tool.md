@@ -1,6 +1,6 @@
 # Cortexia tagging tool
 
-This page describes the use of the Cortexia tagging tool. The general information about tagging are [here](./index.md)
+This page describes the use of the Cortexia tagging tool. The general information about tagging is [here](./index.md)
 
 ## Table of Contents
 
@@ -59,13 +59,13 @@ The main interface looks like the image below. You'll find:
 
 ![icon regions creation tool](images/tool-regions-creation.png) To create regions around litters (after creating the region choose a tag from the right by clicking on it or by using the shortcut from 0 to 9).
 
-![icon regions selection tool](images/tool-regions-selection.png) To select regions and move and resize them (also possible with the upper tool).
+![icon regions selection tool](images/tool-regions-selection.png) To select regions and move and resize them, also possible with the upper tool.
 
-![icon regions copy tool](images/tool-regions-copy.png) To copy the region also possible with the normal keyboard short cut.
+![icon regions copy tool](images/tool-regions-copy.png) To copy the region, also possible with the normal keyboard short cut.
 
-![icon regions cut tool](images/tool-regions-cut.png)To cut the region also possible with the normal keyboard short cut.
+![icon regions cut tool](images/tool-regions-cut.png)To cut the region, also possible with the normal keyboard short cut.
 
-![icon regions paste tool](images/tool-regions-paste.png) To past the region also possible with the normal keyboard short cut.
+![icon regions paste tool](images/tool-regions-paste.png) To paste the region, also possible with the normal keyboard short cut.
 
 ![icon remove all regions tool](images/tool-regions-remove-all.png) To remove all regions (confirmation is required).
 
